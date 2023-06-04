@@ -1,4 +1,6 @@
-/*header h1{
+/*Adaptado al tamaño de escritorio*/
+
+header h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 section{
@@ -40,8 +42,8 @@ section{
 #apartados-caroucel button:hover{
     background-color: rgba(0, 81, 255, 0.545);
 }
+ 
 
-*/
   
   @media screen and (max-width: 768px) {
     section {
@@ -72,6 +74,15 @@ section{
     section {
       width: 100%;
     }
+
+    .carousel-control-prev{
+      margin-bottom: 3vh;
+    }
+
+    .carousel-control-next{
+      margin-bottom: 3vh;
+  }
+
   
     #carouselExampleIndicators {
       height: 200px;
@@ -79,23 +90,61 @@ section{
     }
   
     #carouselExampleIndicators .carousel-item img {
-      height: 150px;
+      height: 200px;
       width: 100%;
     }
+
+
+    .carousel-indicators{
+      margin-bottom: 1vh;
+  }
+
+    #apartados-caroucel{
+      border: 2px solid white;
+      background-color: rgba(0, 0, 0, 0.497);
+      border-radius: 4px;
+      margin-bottom: 2vh;
+      font-size: .6rem;
+     
+  }
+
+
+  #apartados-caroucel button{
+      color: white;
+      border: white;
+      border-radius: 4px;
+      border: 1px solid white;
+      background-color: rgba(0, 123, 255, 0.545);
+  
+  }
+  
+  #apartados-caroucel button:hover{
+      background-color: rgba(0, 81, 255, 0.545);
+  }
+  
+
+  .carousel-caption{
+
+      width: 70%;
+      height: 15vh;
+  }
+
+
+
   }
   
     
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 380px) {
     section {
       width: 100%;
     }
 
     .carousel-control-prev{
-        margin-bottom: 8vh;
+        margin-bottom: 5vh;
     }
 
     .carousel-control-next{
-        margin-bottom: 8vh;
+        margin-bottom: 5vh;
     }
   
     #carouselExampleIndicators {
@@ -104,20 +153,20 @@ section{
     }
   
     #carouselExampleIndicators .carousel-item img {
-      height: 150px;
+      height: 200px;
       width: 100%;
     }
 
     .carousel-indicators{
-        margin-bottom: 48px;
+        margin-bottom: 1vh;
     }
 
     #apartados-caroucel{
         border: 2px solid white;
         background-color: rgba(0, 0, 0, 0.497);
         border-radius: 4px;
-        margin-bottom: 2vh;
-        font-size: .6rem;
+        margin-bottom: 4vh;
+        font-size: .7rem;
        
     }
 
@@ -139,7 +188,7 @@ section{
     .carousel-caption{
   
         width: 70%;
-        height: 15vh;
+        height: 18vh;
     }
     
   }
