@@ -188,10 +188,60 @@ section{
     .carousel-caption{
   
         width: 70%;
-        height: 20vh;
+        height: 18.5vh;
+    }
+    
+
+
+    /*Aqui comienza el Nav*/
+
+    nav{
+      float: right;
+      padding-top: 10px;
+    }
+
+    .nav-categorias li{
+      border-radius: 4px;
+      list-style: none;
+      display: inline;
+      margin-right: 5px;
+      border: 1px solid black;
+      
+    }
+
+    .nav-categorias li  a{
+      text-decoration: none;
+      color: black;
+    }
+
+
+
+    .nav-categorias {
+      width: 100%;
+      overflow: hidden;
     }
     
     
+    .nav-categorias {
+      width: 100%;
+      overflow: hidden;
+    }
+    
+    #carrusel {
+      white-space: nowrap;
+      transition: transform 0.3s ease;
+      display: flex;
+      padding: 0;
+    }
+    
+    #carrusel li {
+      flex: 0 0 auto;
+      margin-right: 10px;
+    }
+    
+    
+
+
 
   }
 
